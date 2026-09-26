@@ -8,33 +8,38 @@ parallel-jobs = 1
 
 [YouTube]
 patches-source = "MorpheApp/morphe-patches"
-cli-source = "MorpheApp/morphe-cli"
+cli-source = "MorpheApp/morphe-desktop"
 rv-brand = "Morphe"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+arch = "arm64-v8a"
 enable-update-checks = true
 
 [YouTube-Music]
 patches-source = "MorpheApp/morphe-patches"
-cli-source = "MorpheApp/morphe-cli"
+cli-source = "MorpheApp/morphe-desktop"
 rv-brand = "Morphe"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
+arch = "arm64-v8a"
 enable-update-checks = true
 
 [Twitter]
 patches-source = "crimera/piko-newx"
-cli-source = "MorpheApp/morphe-cli"
+cli-source = "MorpheApp/morphe-desktop"
 rv-brand = "Piko"
+uptodown-dlurl = "https://twitter.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
 version = "latest"
 included-patches = "'NewX: Restore Twitter branding'"
+arch = "arm64-v8a"
 enable-update-checks = true
 
 [Twitch]
 patches-source = "MorpheApp/morphe-patches"
-cli-source = "MorpheApp/morphe-cli"
+cli-source = "MorpheApp/morphe-desktop"
 rv-brand = "Morphe"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
 uptodown-dlurl = "https://twitch.en.uptodown.com/android"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
+arch = "arm64-v8a"
 enable-update-checks = true
